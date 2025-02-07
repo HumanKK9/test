@@ -18,4 +18,59 @@
     background-color: black;
     font-family:comic sans MS;
   }
+  .sidebar {
+    width: 150;
+    background: #333;
+    color: white;
+    height: 100%;
+    position:fixed;
+    right:0;
+    top: 0;
+    padding: 20px;
+    display:grid;
+    justify-content: space-between;
+    align-items:flex-start;
+    opacity:0;
+    transition: 2s;
+    transition-delay: 1s;
+}
+ .hom {
+    width: 30;
+    height: 30;
+    position:fixed;
+    right:0;
+    top: 0;
+    padding: 20px;
+    display:grid;
+    justify-content: space-between;
+    align-items:flex-start;
+    opacity:0;
+    transition: 2s;
+    transition-delay: 1s;
+}
  
+
+  .sidebar:hover {
+    opacity:1;
+  }
+
+.sidebar h2 {
+    margin: 0;
+    padding: 10px;
+
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 20px;
+    margin: 0;
+    padding-right: 8px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
