@@ -1,0 +1,21 @@
+
+* {
+    margin: 0;
+    text-align:center;
+  }
+  div {
+    height: 100%;
+    display:flex; 
+    align-items: center; 
+    justify-content: center;
+  }
+  .parallax {
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .hey {
+    color:white;
+    background-color: black;
+    font-family:comic sans MS;
+  }
+ 

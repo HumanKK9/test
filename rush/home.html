@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THE DREADED RESUME</title>
+    <style>
+        * {
+            margin: 0;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+            background-color: rgb(40, 40, 114);
+            font-size: xx-large;
+            height: 10vh;
+            font-family: Arial;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+        td {
+            width: 50%; height: 90%;
+        }
+        .below {
+            width: 100vw; height: 10vh;
+            display:grid;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-family: IMPACT;
+            color:orange;
+            font-size: xx-large;
+            text-shadow: 0px -2px yellow;
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Resume</h1>
+    <table style="border-collapse: collapse; width: 100vw; height: 80vh; table-layout: fixed;display:grid">
+        <tr>
+            <td style="background-color: black;width:50vw;"><a href="k.html" style="display:flex;justify-content:end;"><img style="object-fit: cover;" id="im1" src="kao.png" alt="number nine in Thai" width="auto" ></a></td>
+            <td style="background-color: yellow;"><a href="n.html" style="display:flex"><img style="object-fit: cover;" id="im2" src="nine.png" alt="9"></a></td>
+        </tr>
+    </table>
+    <a class="below">Choose your character</a>
+</body>
+</html>
+<script>
+    document.getElementById("im1").height = 8*window.innerHeight/10; ;
+    document.getElementById("im2").height = 8*window.innerHeight/10;
+    document.getElementById("im1").width = window.innerWidth/2.01;
+    document.getElementById("im2").width = window.innerWidth/2.01;
+</script>
