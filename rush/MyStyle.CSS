@@ -23,6 +23,21 @@ body {
     z-index: 100;
 }
 
+.contactbar {
+    background-color: rgb(24, 23, 49);
+    width: 100%;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
+.contactbar-li {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+
 .taskbar {
     width: 100%;
     height: 100px;
@@ -55,6 +70,7 @@ body {
     font-weight: 500;
     margin-left: 35px;
     margin-bottom: 10px;
+    transition: 0.5s;
 }
 
 .taskbar a.active ,
