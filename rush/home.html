@@ -48,8 +48,11 @@
 </body>
 </html>
 <script>
-    document.getElementById("im1").height = 8*window.innerHeight/10; ;
-    document.getElementById("im2").height = 8*window.innerHeight/10;
-    document.getElementById("im1").width = window.innerWidth/2.01;
-    document.getElementById("im2").width = window.innerWidth/2.01;
+    setInterval(() => {
+        document.getElementById("im1").height = 8*window.innerHeight/10; ;
+        document.getElementById("im2").height = 8*window.innerHeight/10;
+        document.getElementById("im1").width = window.innerWidth/2.01;
+        document.getElementById("im2").width = window.innerWidth/2.01;
+        }, 10);
+    
 </script>
